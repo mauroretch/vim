@@ -456,3 +456,9 @@ endif
 set backupskip+=*.tmp " skip backup for *.tmp
 
 let &viminfo=&viminfo . ",n" . s:vimdir . "/.viminfo" " viminfo location
+
+" Cambiar el color de subrayado de búsqueda
+hi Search guibg=yellow ctermfg=black
+
+" Cambiar el color de fuente de búsqueda actual
+hi IncSearch guibg=yellow ctermfg=black
