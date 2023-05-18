@@ -147,10 +147,10 @@ if $COLORTERM == 'gnome-terminal'
    set t_Co=256
 endif
 
-try
-    colorscheme desert
-catch
-endtry
+"try
+"    colorscheme desert
+"catch
+"endtry
 
 set background=dark
 
@@ -195,8 +195,8 @@ set tabstop=3
 set lbr
 set tw=500
 
-set ai "Auto indent
-set si "Smart indent
+"set ai "Auto indent
+"set si "Smart indent
 set wrap "Wrap lines
 
 
